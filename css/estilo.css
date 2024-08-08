@@ -1,0 +1,235 @@
+/* Importando fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kalam:wght@300;400;700&family=Lobster&display=swap');
+
+/* Aplicando o box-sizing border-box a todos os elementos para incluir padding e border no cálculo de width e height */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo do documento */
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive; /* Fonte principal do site */
+}
+
+/* Estilizando a barra de navegação */
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Garante que a barra de navegação fique sobre outros elementos */
+}
+
+/* Estilizando o logo na barra de navegação */
+.logo {
+    flex: 23%;
+    text-align: right;
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    color: #180f4a;
+    font-size: 34px;
+}
+
+/* Estilizando o menu de navegação */
+.menu {
+    flex: 71%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;  
+}
+
+.menu a:hover {
+    color: #ff2978;
+    border-top: 4px solid #180f4a;
+}
+
+/* Estilizando o botão na barra de navegação */
+#botao {
+    background-color: #180f4a;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background-color: #ff2978;
+}
+
+/* Estilizando o cabeçalho principal */
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 100px;
+    position: relative; /* Necessário para o z-index funcionar corretamente */
+}
+
+/* Estilizando a seção de destaque no cabeçalho */
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0; 
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+/* Estilizando o botão de contato */
+.contact-btn {
+    display: inline-block;
+    background-color: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180f4a;
+}
+
+/* Estilizando a imagem no cabeçalho */
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+/* Estilizando a seção principal do site */
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+/* Estilizando o título da seção */
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+/* Estilizando a área de serviços */
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+/* Estilizando os cartões de serviço */
+.card {
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    width: 30%;
+    padding: 5%;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; 
+    z-index: 1; /* Solução para evitar o bug do cartão */
+}
+
+/* Efeito de hover nos cartões */
+.card:hover {
+    background: #ff2978;
+    color: white;
+    transform: scale(1.05) translateZ(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+
+/* Estilizando o texto oculto nos cartões */
+.texto-oculto {
+    display: none;
+}
+
+/* Estilizando o texto dentro dos cartões */
+.card p {
+    color: #180f4a;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Ocultando o texto normal e exibindo o texto oculto ao passar o mouse */
+.card:hover .class-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+/* Estilizando as imagens dentro dos cartões */
+.card img {
+    transition: opacity 0.3s ease; /* Transição suave para a opacidade */
+}
+
+/* Garantindo que as imagens permaneçam visíveis durante o hover */
+.card:hover img {
+    opacity: 1;
+}
+
+/* Estilizando o rodapé */
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180f4a, #090422, black);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+}
+
+/* Estilizando o conteúdo do rodapé */
+.logo-rodape {
+    padding: 100px;
+}
+
+.agencia {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px;
+}
+
+/* Estilizando o botão de WhatsApp */
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
