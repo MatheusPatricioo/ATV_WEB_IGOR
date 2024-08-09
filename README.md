@@ -1,53 +1,63 @@
-# Site Responsivo
+# NexGen Solutions
 
-Bem-vindo ao site responsivo! Este projeto foi desenvolvido com foco na criação de um site que se adapta a diferentes dispositivos e tamanhos de tela.
+Este repositório contém o site desenvolvido como parte de um projeto proposto pelo supervisor Igor para avaliar habilidades em CSS e HTML. O projeto foi criado para a empresa EDUTEC, com o objetivo de demonstrar competência em design e desenvolvimento front-end.
 
-## Descrição do Projeto
+## Descrição
 
-Este projeto é um exemplo de site responsivo, o que significa que foi projetado e desenvolvido para garantir uma ótima experiência do usuário em qualquer dispositivo, seja um desktop, tablet ou smartphone. O layout e o conteúdo do site são ajustados dinamicamente para se adequar ao tamanho da tela, proporcionando uma navegação intuitiva e uma aparência visualmente agradável em todos os dispositivos.
+O site da NexGen Solutions é um exemplo de como uma agência digital pode se apresentar online. Ele foi projetado para evidenciar as capacidades em design web, utilizando práticas modernas e interativas. O projeto inclui:
 
-## Funcionalidades
-
-- Design responsivo que se adapta a diferentes tamanhos de tela.
-- Utilização de técnicas modernas de HTML5 e CSS3 para criar layouts flexíveis e fluidos.
-- Testado em uma variedade de dispositivos e navegadores para garantir compatibilidade e consistência.
+- **Barra de Navegação**: Navegação responsiva com logo e links para diferentes seções do site.
+- **Cabeçalho Principal**: Destaca o nome da agência e fornece uma breve descrição dos serviços.
+- **Seção de Serviços**: Apresenta três serviços principais com cartões interativos.
+- **Rodapé**: Informações de contato e direitos autorais.
+- **Botão de WhatsApp**: Facilita o contato rápido via WhatsApp.
 
 ## Tecnologias Utilizadas
 
-- HTML5: Estruturação do conteúdo da página.
-- CSS3: Estilização e layout responsivo.
-- Media Queries: Utilizadas para aplicar estilos específicos com base no tamanho da tela.
-- JavaScript (opcional): Adicionando interatividade e funcionalidades adicionais para dispositivos específicos.
+- **HTML**: Estruturação do conteúdo.
+- **CSS**: Estilização e layout responsivo.
+- **Google Fonts**: Fontes personalizadas para uma melhor aparência.
 
-## Como Utilizar
+## Funcionalidades
 
-1. Acesse o site responsivo online clicando neste [link](https://seu-usuario.github.io/site-responsivo/).
+- **Design Responsivo**: O site é responsivo e se adapta a diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis e desktops.
+- **Efeitos de Hover**: Cartões de serviços com efeitos de hover para uma experiência interativa.
+- **Botão de Contato**: Integração com WhatsApp para facilitar o contato com a agência.
 
-2. Experimente redimensionar a janela do navegador em um desktop para ver o layout responsivo em ação.
+## Instruções de Uso
 
-3. Acesse o site em diferentes dispositivos, como tablets e smartphones, para verificar como ele se adapta automaticamente ao tamanho da tela.
+1. **Clone o Repositório**
+    ```bash
+    git clone https://github.com/seu-usuario/nexgen-solutions.git
+    ```
 
-4. Navegue pelo site para explorar seu conteúdo e funcionalidades em diferentes dispositivos.
+2. **Acesse o Diretório do Projeto**
+    ```bash
+    cd nexgen-solutions
+    ```
 
-## Captura de Tela
-Esse print é parte da front page.
+3. **Abra o Arquivo HTML**
+    Abra o arquivo `index.html` em um navegador para visualizar o site.
 
-![Captura de Tela do Site Responsivo](img/imagemm.png)
+## Estrutura do Projeto
 
-## Contribuições
+- `index.html`: Arquivo principal HTML do site.
+- `css/estilo.css`: Estilo principal do site.
+- `css/responsivo.css`: Estilo para dispositivos móveis.
+- `img/`: Pasta contendo imagens utilizadas no site.
 
-Se você deseja contribuir para este projeto, siga estas etapas:
+## Contribuição
 
-1. Faça um fork do repositório.
-2. Crie sua própria branch: `git checkout -b feature/sua-feature`.
-3. Faça suas alterações e commit: `git commit -am 'Adicione sua feature'`.
-4. Faça push para a branch: `git push origin feature/sua-feature`.
-5. Envie um pull request.
+Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma issue ou um pull request. Qualquer melhoria ou sugestão é bem-vinda!
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Para mais informações, você pode entrar em contato através do e-mail matheuspatricio.aspx@gmail.com.
 
 ---
 
-**Nota:** Este projeto é apenas para fins educacionais e de demonstração.
+Obrigado por visitar o repositório da NexGen Solutions!
