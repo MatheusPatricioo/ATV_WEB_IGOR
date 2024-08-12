@@ -150,6 +150,7 @@ section h2 {
 .servicos {
     display: inline-block;
     margin-top: 5%;
+    
 }
 
 /* Estilizando os cartões de serviço */
@@ -166,7 +167,7 @@ section h2 {
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative; 
-    z-index: 4; /* Solução para evitar o bug do cartão */
+    z-index: 1; /* Solução para evitar o bug do cartão */
 }
 
 /* Efeito de hover nos cartões */
