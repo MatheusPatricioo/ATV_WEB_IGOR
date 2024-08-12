@@ -23,6 +23,8 @@ O site da NexGen Solutions é um exemplo de como uma agência digital pode se ap
 - **Design Responsivo**: O site é responsivo e se adapta a diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis e desktops.
 - **Efeitos de Hover**: Cartões de serviços com efeitos de hover para uma experiência interativa.
 - **Botão de Contato**: Integração com WhatsApp para facilitar o contato com a agência.
+- **Página de contatos**: Integração com uma segunda página. Facilidade em encontrar a lista de contatos da agência.
+- **Botão voltar**: Retorna para a página de home.
 
 ## Instruções de Uso
 
