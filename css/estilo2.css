@@ -35,7 +35,7 @@ body {
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .5);
-    background-image: url(imagens/thumb03.jpg);
+    background-image: url('../imagens/thumb03.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
